@@ -23,3 +23,9 @@ section{font-size:13px;line-height:1.45;margin-top:14px}section h3{font-size:15p
 .star{font-size:12px;font-weight:700;color:#fff;background:#222;border-radius:4px;padding:2px 6px;white-space:nowrap;border:2px solid #fff}
 @media(max-width:800px){body{flex-direction:column-reverse}#side{width:100%;height:45%}#panel{width:calc(100% - 24px)}}
 .leg{background:#fff;border:1px solid #888;border-radius:10px;padding:1px 6px;font-size:11px;font-weight:600;white-space:nowrap;box-shadow:none}.src{font-size:11px;color:#666;margin-top:6px}.cr{font-size:10px;color:#888;padding:2px 12px 8px}
+
+.badge{display:flex;align-items:center;gap:6px;transform:translate(-50%,-100%);white-space:nowrap;font-weight:700;font-size:13px;color:#fff;padding:5px 11px 5px 8px;border-radius:18px;box-shadow:0 2px 8px #0006;border:2px solid #fff}
+.badge.e{background:linear-gradient(135deg,#e8590c,#c92a2a)}.badge.n{background:linear-gradient(135deg,#1c7ed6,#0b3d91)}
+.badge svg{width:18px;height:18px;fill:#fff}
+.num{width:24px;height:24px;border-radius:50%;border:2px solid #fff;color:#fff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 4px #0008}
+.lbl{background:#fffe;border:0;box-shadow:0 1px 3px #0005;font-size:12px;font-weight:600;padding:1px 6px}
